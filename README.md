@@ -73,5 +73,7 @@ In the input interface, certain considerations need to be kept in mind to ensure
 
 ![CSV files](https://github.com/smrksn/Project-RED/assets/144154829/49bd6476-f09d-4f63-b5ad-d58e3c8451dd)
 
+<img src="(https://github.com/smrksn/Project-RED/assets/144154829/49bd6476-f09d-4f63-b5ad-d58e3c8451dd)" width=50% height=50%>
+
 - **Address Format**: Typically, Open Street Map accepts addresses in the format of "Street, Home Number, Town, Country." In case of any errors, verify the entered address using the Online version of Open Street Map.
 
