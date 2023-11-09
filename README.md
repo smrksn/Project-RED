@@ -44,7 +44,7 @@ To begin, open the MASTERCODE.py file and execute it. When the popup window appe
 
 The simulation will run until a popup window displays the output results. In this window, you can view the Neighbourhood Map and Risk Response Map. Additionally, you can access the **"Open Outputs Folder"** button to open the outputs folder in the same working directory, where intermediate results are stored.
 
-![Output Window](https://github.com/smrksn/Project-RED/assets/144154829/ebd7bd35-ff84-4d1c-ad0b-479ea66e3dac)
+<img src="https://github-production-user-asset-6210df.s3.amazonaws.com/144154829/281757940-a32ad45b-8d1e-4ff2-aa22-f4dba05ea23f.png" width=70% height=70%>
 
 ### Outputs
 - **Acceleration Time Series** displays ground acceleration data for the selected ground motion event.
