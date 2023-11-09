@@ -71,7 +71,7 @@ In the input interface, certain considerations need to be kept in mind to ensure
       - This naming convention aids in accurately overwriting the appropriate file in the folder during CSV file modifications post-structural analysis revisions, maintaining the correct file count in the folder.
    - Utilize the "Insert Files" button in the user interface to upload CSV files or drag them directly to the **“Eigenmode Vectors”** folder.
 
-<img src="[CSV files](https://github.com/smrksn/Project-RED/assets/144154829/49bd6476-f09d-4f63-b5ad-d58e3c8451dd)" width="48">
+![CSV files](https://github.com/smrksn/Project-RED/assets/144154829/49bd6476-f09d-4f63-b5ad-d58e3c8451dd)
 
 - **Address Format**: Typically, Open Street Map accepts addresses in the format of "Street, Home Number, Town, Country." In case of any errors, verify the entered address using the Online version of Open Street Map.
 
