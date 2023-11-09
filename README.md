@@ -28,7 +28,7 @@ The 'Simulation Tool' assesses the response of nine structural archetypes to sei
 - **“Outputs”**: This folder stores output and intermediate results generated during the simulation.
 - **“Ground Accelerations”**: This folder holds 15 earthquake acceleration series.
 - **“Eigenmode Vectors”**: This folder stores the shape of vibration vectors obtained from the structural analysis.
-- **“Seismosignal Response Displacement”**: This folder contains the displacement data corresponding to each file stored in the 'Ground Acceleration' folder. This data has been extracted using SeismoSignal.
+- **“Seismosignal Response Displacements”**: This folder contains the displacement data corresponding to each file stored in the 'Ground Acceleration' folder. This data has been extracted using SeismoSignal.
 - **“Codeflows”**: This folder contains visual summaries (HTML files) of each Python file's execution sequence for a quick overview of content and flow within.
 
 ### Using the Simulation Tool
