@@ -1,10 +1,13 @@
 # Project-RED
 ![Intro](https://github.com/smrksn/Project-RED/assets/144154829/5fe729b6-53fb-45ce-8a17-0acd60329a00)
 
-## Overview
-This project focuses on creating a Response Map for Response Management teams dealing with uncertainties in the aftermath of earthquakes. Currently, obtaining reliable data through satellite images takes 24 to 36 hours. The Response Map aims to significantly reduce this timeframe, allowing for an immediate estimation of the affected buildings based on their structural properties. This swift response can enhance the efficiency of post-earthquake assessments and aid in timely decision-making for response teams.
+
+## Project Overview:
+This project is dedicated to developing a Response Map to assist Response Management teams in dealing with uncertainties post-earthquakes. Currently, the delay in acquiring reliable satellite data takes 24 to 36 hours. The Response Map aims to drastically reduce this timeframe, providing an immediate estimation of affected buildings based on their structural properties. This swift response enhances post-earthquake assessment efficiency, aiding timely decision-making for response teams.
+### Context Note
+With a specific focus on the Turkey–Syria seismic events of February 6, 2023, this initiative is part of CORE Studio's emphasis on Earthquake Resilience and Recovery. The course urges Building Technologists to comprehend this global challenge and develop practical solutions for future scenarios.
 ### Current Limitations
-The project envisions the creation of a country-specific extensive database, incorporating three essential structural variables for assessing structural integrity post-induced earthquakes. However, this database is currently in its conceptual stage and not widely implemented. To address this limitation, users can generate their own database through the Structural Analysis approach. This database accommodates nine different buildings or three main archetypes parametrically altered three times. Users can then leverage the structural analysis outputs in the Simulation Tool, which aligns with earthquake engineering equations and seismic design codes. This conceptual framework aims to pave the way for a future extensive GIS database that, in conjunction with acceleration data, can swiftly generate Risk Response Maps for affected regions.
+The project envisions the development of a country-specific extensive database, integrating three critical structural variables for evaluating structural integrity after induced earthquakes. However, these types of databases are currently in a conceptual stage and not widely implemented. To address this limitation, users can generate their own database through the **Structural Analysis** approach. This database accommodates nine different buildings or three main archetypes parametrically altered. Users can then leverage the structural analysis outputs in the **Simulation Tool**, which aligns with seismic engineering principles and national/international design codes. This conceptual framework sets the groundwork for a prospective GIS database. When combined with acceleration data, it is poised to efficiently produce Risk Response Maps for regions impacted by seismic events.
 
 ## Structural Analysis
 ... Ramya's part
