@@ -1,5 +1,5 @@
 # Project-RED
-Rapid Estimation of Disaster Consequences | AR3B012 - CORE Studio | TU Delft
+![Intro](https://github.com/smrksn/Project-RED/assets/144154829/5fe729b6-53fb-45ce-8a17-0acd60329a00)
 
 ## Overview
 
