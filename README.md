@@ -7,7 +7,7 @@ Rapid Estimation of Disaster Consequences | AR3B012 - CORE Studio | TU Delft
 ... Ramya's part
 
 ## Simulation Tool
-The 'Simulation Tool' serves as the tool for assessing the response of nine structural archetypes to seismic events. Upon running the **MASTERCODE.py** script, this tool provides a user-friendly interface to streamline the analysis process.
+The 'Simulation Tool' assesses the response of nine structural archetypes to seismic events. Running the **MASTERCODE.py** script activates this user-friendly interface, streamlining the analysis process.
 
 ### Repository Contents
 - **py files**: In addition to the MASTERCODE.py, this repository contains essential Python files that provide the necessary functions for the analysis.
