@@ -13,7 +13,7 @@ The 'Simulation Tool,' primarily implemented within the MASTERCODE.py file, serv
 - **txt files**: The text files are utilized to store data entered into the interface, enhancing user convenience.
 - **“Outputs”**: This folder stores output and intermediate results generated during the simulation.
 - **“Ground Accelerations”**: This folder holds 15 earthquake acceleration series.
-- **“Eigenmode Vectors”**: This folder stores the shape of vibration vectors obtained from Karamba3D analysis.
+- **“Eigenmode Vectors”**: This folder stores the shape of vibration vectors obtained from the structural analysis.
 - **“Seismosignal Response Displacement”**: This folder contains the displacement data corresponding to each file stored in the 'Ground Acceleration' folder. This data has been extracted using SeismoSignal.
 ### Using the Simulation Tool
 To begin, open the MASTERCODE.py file and execute it. When the popup window appears, follow these steps to assign the necessary variables:
@@ -29,5 +29,16 @@ The simulation will run until a popup window displays the output results. In thi
 
 ![Output Window](https://github.com/smrksn/Project-RED/assets/144154829/ebd7bd35-ff84-4d1c-ad0b-479ea66e3dac)
 
+### Outputs
+- **Acceleration Time Series** displays ground acceleration data for the selected ground motion event.
+- **Deformation Response Spectra** illustrates the buildings' response to specified seismic activity, showcasing data alignment with SeismoSignal.
+- **Modal Shapes** graphs show the fundamental mode of vibration or the governing pattern of displacement that the archetypes undergo during the seismic event.
+- **Peak Displacements** graphs illustrate the maximum displacement encountered by each floor within a given archetype during a selected ground motion event.
+- **Neighbourhood Map** is a visual representation of various types of archetype buildings in a specified neighbourhood. In the current simulation program, they are randomly assigned to the existing building footprints.
+- **Risk Response Map** is a visual representation of danger spots within a neighbourhood that has been subjected to severe damage or collapse due to the earthquake.
+
+ADD IMAGE HERE
+
+### Proper Variable Insertion Format and Guidelines
 
 
