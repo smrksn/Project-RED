@@ -2,11 +2,11 @@
 ![Intro](https://github.com/smrksn/Project-RED/assets/144154829/5fe729b6-53fb-45ce-8a17-0acd60329a00)
 
 ## Go Directly to:
-[Overview]([https://github.com/hillaryfraley/jobbriefings#purpose](https://github.com/smrksn/Project-RED/blob/main/README.md#project-overview))
+[Overview](https://github.com/smrksn/Project-RED/blob/main/README.md#project-overview)
 
-[Structural Analysis]([https://github.com/hillaryfraley/jobbriefings#scope](https://github.com/smrksn/Project-RED/blob/main/README.md#structural-analysis))
+[Structural Analysis](https://github.com/smrksn/Project-RED/blob/main/README.md#structural-analysis)
 
-[Simulation Tool]([https://github.com/hillaryfraley/jobbriefings#work-practice](https://github.com/smrksn/Project-RED/blob/main/README.md#simulation-tool))
+[Simulation Tool](https://github.com/smrksn/Project-RED/blob/main/README.md#simulation-tool)
 
 
 ## Project Overview:
