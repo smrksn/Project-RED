@@ -2,6 +2,7 @@
 ![Intro](https://github.com/smrksn/Project-RED/assets/144154829/5fe729b6-53fb-45ce-8a17-0acd60329a00)
 
 ## Overview
+This project focuses on creating a Response Map for Response Management teams dealing with uncertainties in the aftermath of earthquakes. Currently, obtaining reliable data through satellite images takes 24 to 36 hours. The Response Map aims to significantly reduce this timeframe, allowing for an immediate estimation of the affected buildings based on their structural properties. This swift response can enhance the efficiency of post-earthquake assessments and aid in timely decision-making for response teams.
 
 ## Structural Analysis
 ... Ramya's part
