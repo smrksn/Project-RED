@@ -12,8 +12,11 @@
 
 ## Project's Overview:
 This project's core objective is to develop a Response Map for aiding Response Management teams post-earthquakes. Currently, the delayed acquisition of reliable satellite data, taking 24 to 36 hours, poses a critical challenge. The Response Map seeks to substantially reduce this timeframe, offering an immediate estimation of affected buildings based on their structural properties. This swift response enhances post-earthquake assessment efficiency, facilitating timely decision-making for response teams. Simultaneously, the project lays the groundwork for a prospective GIS database. Paired with ground acceleration records, this database is poised to efficiently produce Risk Response Maps for seismic event-impacted regions.
-### Context Note
-With a specific focus on the Turkey–Syria seismic events of February 6, 2023, this initiative is part of CORE Studio's emphasis on Earthquake Resilience and Recovery. The course urges Building Technologists to comprehend this global challenge and develop practical solutions for future scenarios.
+### Context and Copyright
+This project, focusing on the Turkey–Syria seismic events of February 6, 2023, is an integral part of CORE Studio's dedication to Earthquake Resilience and Recovery. Aligned with the Master's in Building Technology coursework at TU Delft, it challenges Building Technologists to grapple with global challenges and craft practical solutions for future scenarios.
+
+All rights, including intellectual property, are credited to Delft University of Technology (TU Delft). Proper attribution to the original creators is mandatory for any use of the material.
+
 ### Current Limitations
 The project envisions the development of a country-specific extensive database, integrating three critical structural variables for evaluating structural integrity after induced earthquakes. However, these types of databases are currently in a conceptual stage and not widely implemented. To address this limitation, users can generate their own database through the **Structural Analysis** approach. This database accommodates nine different buildings or three main archetypes parametrically altered. Users can then leverage the structural analysis outputs in the **Simulation Tool**, which aligns with seismic engineering principles and national/international design codes.
 
@@ -77,4 +80,6 @@ In the input interface, certain considerations need to be kept in mind to ensure
 <img src="https://user-images.githubusercontent.com/144154829/281750282-49bd6476-f09d-4f63-b5ad-d58e3c8451dd.png" width=30% height=30%>
 
 - **Address Format**: Typically, Open Street Map accepts addresses in the format of "Street, Home Number, Town, Country." In case of any errors, verify the entered address using the Online version of Open Street Map.
+
+Project RED © November, 2023 by Ramya Kumaraswamy, Sofia Markson
 
