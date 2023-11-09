@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<title>Markmap</title>
+<style>
+* {
+  margin: 0;
+  padding: 0;
+}
+#mindmap {
+  display: block;
+  width: 100vw;
+  height: 100vh;
+}
+</style>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/markmap-toolbar@0.15.3/dist/style.css">
+</head>
+<body>
+<svg id="mindmap"></svg>
+<script src="https://cdn.jsdelivr.net/npm/d3@7.8.5/dist/d3.min.js"></script><script src="https://cdn.jsdelivr.net/npm/markmap-view@0.15.3/dist/browser/index.js"></script><script src="https://cdn.jsdelivr.net/npm/markmap-toolbar@0.15.3/dist/index.js"></script><script>(r => {
+                setTimeout(r);
+              })(() => {
+  const {
+    markmap,
+    mm
+  } = window;
+  const {
+    el
+  } = markmap.Toolbar.create(mm);
+  el.setAttribute('style', 'position:absolute;bottom:20px;right:20px');
+  document.body.append(el);
+})</script><script>((getMarkmap, getOptions, root, jsonOptions) => {
+          const markmap = getMarkmap();
+          window.mm = markmap.Markmap.create('svg#mindmap', (getOptions || markmap.deriveOptions)(jsonOptions), root);
+        })(() => window.markmap,null,{"type":"heading","depth":0,"payload":{"lines":[1,2]},"content":"Functions_Map.py","children":[{"type":"heading","depth":1,"payload":{"lines":[3,4]},"content":"Function 1: SLS and ULS Displacement Checks","children":[{"type":"list_item","depth":2,"payload":{"lines":[4,5]},"content":"Initialize empty lists to store boolean values for SLS and ULS exceedance for <strong>all the archetypes</strong>.","children":[]},{"type":"list_item","depth":2,"payload":{"lines":[5,6]},"content":"Iterate over pairs of height and maximum displacement arrays of <strong>all the archetypes</strong>:","children":[{"type":"list_item","depth":3,"payload":{"lines":[6,7]},"content":"Initialize two empty lists to store boolean values for SLS and ULS exceedance for <strong>each individual archetype</strong>.","children":[]},{"type":"list_item","depth":3,"payload":{"lines":[7,8]},"content":"For <strong>each individual archetype</strong>:","children":[{"type":"list_item","depth":4,"payload":{"lines":[8,9]},"content":"Calculate the story heights and inter-story displacements.","children":[]},{"type":"list_item","depth":4,"payload":{"lines":[9,10]},"content":"Check whether the inter-story displacements exceed predefined criteria for SLS and ULS.","children":[]},{"type":"list_item","depth":4,"payload":{"lines":[10,11]},"content":"Append the results to initilized lists.","children":[]}]},{"type":"list_item","depth":3,"payload":{"lines":[11,12]},"content":"Append results to SLS and ULS criteria excedance lists.","children":[]}]},{"type":"list_item","depth":2,"payload":{"lines":[12,13]},"content":"Find the indexes of the archetypes with at least one True value for both SLS and ULS exceedance.","children":[]}]},{"type":"heading","depth":1,"payload":{"lines":[14,15]},"content":"Function 2: Neighbourhood Map","children":[{"type":"list_item","depth":2,"payload":{"lines":[15,16]},"content":"Download a road network using OpenStreetMap data for a certain location.","children":[]},{"type":"list_item","depth":2,"payload":{"lines":[16,17]},"content":"Download building footprints data for a certain location.","children":[]},{"type":"list_item","depth":2,"payload":{"lines":[17,18]},"content":"Calculates the centroids of building footprints and store them in a new column in the GeoDataFrame named 'centroid'.","children":[]},{"type":"list_item","depth":2,"payload":{"lines":[18,19]},"content":"Shuffle the rows in the GeoDataFrame randomly.","children":[]},{"type":"list_item","depth":2,"payload":{"lines":[19,20]},"content":"Divide the shuffled GeoDataFrame into nine groups, representing different archetypes.","children":[]},{"type":"list_item","depth":2,"payload":{"lines":[20,21]},"content":"Define a list of colors to assign to each archetype.","children":[]},{"type":"list_item","depth":2,"payload":{"lines":[21,22]},"content":"Initialize a figure and axis for plotting using; set the road network as the background.","children":[{"type":"list_item","depth":3,"payload":{"lines":[22,23]},"content":"For each defined group/archetype:","children":[{"type":"list_item","depth":4,"payload":{"lines":[23,24]},"content":"Convert the group into GeoDataFrame.","children":[]},{"type":"list_item","depth":4,"payload":{"lines":[24,25]},"content":"Plot the group on the map with a distinct color and label.","children":[]}]},{"type":"list_item","depth":3,"payload":{"lines":[25,26]},"content":"Set the title and add a legend to the Map.","children":[]}]}]},{"type":"heading","depth":1,"payload":{"lines":[27,28]},"content":"Function 3: Risk Map","children":[{"type":"list_item","depth":2,"payload":{"lines":[28,29]},"content":"Create a initilized list of colors ('grey') for all archetypes.","children":[]},{"type":"list_item","depth":2,"payload":{"lines":[29,30]},"content":"Set marker sizes to a fixed value for all archetypes.","children":[]},{"type":"list_item","depth":2,"payload":{"lines":[30,31]},"content":"Iterate through the indexes of archetypes exceeding SLS criteria:","children":[{"type":"list_item","depth":3,"payload":{"lines":[31,32]},"content":"Update the color for the corresponding index to 'lightsalmon' within the list of colors.","children":[]}]},{"type":"list_item","depth":2,"payload":{"lines":[32,33]},"content":"Iterate through the indexes of archetypes exceeding ULS criteria:","children":[{"type":"list_item","depth":3,"payload":{"lines":[33,34]},"content":"Update the color for the corresponding index to 'red' within the list of colors.","children":[]}]},{"type":"list_item","depth":2,"payload":{"lines":[34,35]},"content":"Initialize a figure and axis for plotting, using the road network as the background.","children":[{"type":"list_item","depth":3,"payload":{"lines":[35,36]},"content":"For each defined group/archetype:","children":[{"type":"list_item","depth":4,"payload":{"lines":[36,37]},"content":"Convert the group into GeoDataFrame.","children":[]},{"type":"list_item","depth":4,"payload":{"lines":[37,38]},"content":"Plot the group on the map with a distinct color and label.","children":[]}]},{"type":"list_item","depth":3,"payload":{"lines":[38,39]},"content":"Set the title and add a legend to the Map.","children":[]},{"type":"list_item","depth":3,"payload":{"lines":[39,40]},"content":"Create a second legend to represent different Limit States for Displacements using defined color notations.","children":[]}]}]}]},{"colorFreezeLevel":2,"maxWidth":300})</script>
+</body>
+</html>
