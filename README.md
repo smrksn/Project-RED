@@ -39,7 +39,8 @@ To begin, open the MASTERCODE.py file and execute it. When the popup window appe
 4.	**Save Input Values**: You are allowed to save all the inserted values to avoid reinserting them each time. These values will be stored in respective text files.
 5.	**Run the Simulation**: Once you have configured the input parameters, click the "Submit Variables" button to initiate the simulation.
    
-![Input Window](https://github.com/smrksn/Project-RED/assets/144154829/394dce26-0ee8-402a-a09d-ac9bc084434a)
+<img src="https://github-production-user-asset-6210df.s3.amazonaws.com/144154829/281756761-0a70f8d9-6bcd-4746-837c-103540360608.png" width=70% height=70%>
+
 
 The simulation will run until a popup window displays the output results. In this window, you can view the Neighbourhood Map and Risk Response Map. Additionally, you can access the **"Open Outputs Folder"** button to open the outputs folder in the same working directory, where intermediate results are stored.
 
