@@ -53,7 +53,8 @@ The simulation will run until a popup window displays the output results. In thi
 - **Neighbourhood Map** is a visual representation of various types of archetype buildings in a specified neighbourhood. In the current simulation program, they are randomly assigned to the existing building footprints.
 - **Risk Response Map** is a visual representation of danger spots within a neighbourhood that has been subjected to severe damage or collapse due to the earthquake.
 
-![Outputs](https://github.com/smrksn/Project-RED/assets/144154829/d1b054d1-d82b-46dd-9779-f7d4cccb7017)
+<img src="https://github-production-user-asset-6210df.s3.amazonaws.com/144154829/281755499-2aff03bc-5c54-40f7-b527-6348a5e7b927.png">
+
 
 ### Proper Variable Insertion Format and Guidelines
 In the input interface, certain considerations need to be kept in mind to ensure smooth operation:
