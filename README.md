@@ -3,6 +3,8 @@
 
 ## Overview
 This project focuses on creating a Response Map for Response Management teams dealing with uncertainties in the aftermath of earthquakes. Currently, obtaining reliable data through satellite images takes 24 to 36 hours. The Response Map aims to significantly reduce this timeframe, allowing for an immediate estimation of the affected buildings based on their structural properties. This swift response can enhance the efficiency of post-earthquake assessments and aid in timely decision-making for response teams.
+### Current Limitations
+The project envisions the creation of a country-specific extensive database, incorporating three essential structural variables for assessing structural integrity post-induced earthquakes. However, this database is currently in its conceptual stage and not widely implemented. To address this limitation, users can generate their own database through the Structural Analysis approach. This database accommodates nine different buildings or three main archetypes parametrically altered three times. Users can then leverage the structural analysis outputs in the Simulation Tool, which aligns with earthquake engineering equations and seismic design codes. This conceptual framework aims to pave the way for a future extensive GIS database that, in conjunction with acceleration data, can swiftly generate Risk Response Maps for affected regions.
 
 ## Structural Analysis
 ... Ramya's part
