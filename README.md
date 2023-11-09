@@ -1,5 +1,6 @@
 # Project-RED
-![Intro](https://github.com/smrksn/Project-RED/assets/144154829/5fe729b6-53fb-45ce-8a17-0acd60329a00)
+
+<img src="https://github-production-user-asset-6210df.s3.amazonaws.com/144154829/281760123-cd4f7a60-0e19-4087-83f5-68304ccbeb00.jpeg" width=70% height=70%>
 
 ## Go Directly to:
 [Project's Overview](https://github.com/smrksn/Project-RED/blob/main/README.md#project-overview)
