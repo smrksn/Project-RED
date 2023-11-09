@@ -1,6 +1,13 @@
 # Project-RED
 ![Intro](https://github.com/smrksn/Project-RED/assets/144154829/5fe729b6-53fb-45ce-8a17-0acd60329a00)
 
+## Go Directly to:
+[Overview]([https://github.com/hillaryfraley/jobbriefings#purpose](https://github.com/smrksn/Project-RED/blob/main/README.md#project-overview))
+
+[Structural Analysis]([https://github.com/hillaryfraley/jobbriefings#scope](https://github.com/smrksn/Project-RED/blob/main/README.md#structural-analysis))
+
+[Simulation Tool]([https://github.com/hillaryfraley/jobbriefings#work-practice](https://github.com/smrksn/Project-RED/blob/main/README.md#simulation-tool))
+
 
 ## Project Overview:
 This project's core objective is to develop a Response Map for aiding Response Management teams post-earthquakes. Currently, the delayed acquisition of reliable satellite data, taking 24 to 36 hours, poses a critical challenge. The Response Map seeks to substantially reduce this timeframe, offering an immediate estimation of affected buildings based on their structural properties. This swift response enhances post-earthquake assessment efficiency, facilitating timely decision-making for response teams. Simultaneously, the project lays the groundwork for a prospective GIS database. Paired with ground acceleration records, this database is poised to efficiently produce Risk Response Maps for seismic event-impacted regions.
