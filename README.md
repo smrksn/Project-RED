@@ -45,10 +45,15 @@ Utilize the provided file as follows:
 
 ### Design Assumptions
 1)	The natural frequency and participation factor values fall within the range of 0.5-1.5 units. Consequently, adjustments to the cross-sectional dimensions of the structural elements are made in accordance with rule-of-thumb guidelines.
-2)	The Karamba results gave 3 participation factors - in the x, y and z-axis. The following steps were considered while selecting the participation factor for the next analysis step. If there are 3 modes of participation factor, 
+2)	The Karamba results gave 3 participation factors - in the x, y and z-axis. The following steps were considered while selecting the participation factor for the next analysis step. If there are 3 modes of participation factor:
    - The z-axis is ruled out because the z is constant (0,3,6,9). 
    - For the x and y-axis look at displacements - consider the higher displacement values. 
    - And then, consider the participation factor in that direction.
+
+### Creating CSV files
+- Right-click on the header of the 'Displacement Values' panel and choose "Stream Destination."
+- Select the destination and specify the file name; choose the .csv format from the "Save as type" menu.
+- After creating the file, right-click on the panel header once more and opt for "Stream Contents."
 
 ## Simulation Tool
 The 'Simulation Tool' assesses the response of nine structural archetypes to seismic events. Running the **MASTERCODE.py** script activates this user-friendly interface, streamlining the analysis process.
