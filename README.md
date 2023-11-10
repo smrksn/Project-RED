@@ -41,14 +41,14 @@ Utilize the provided file as follows:
 4. Given the scenario of an unoccupied building, apply only gravity load.
 5. Integrate all components into the Assemble model for finite element analysis at mode 0.
 6. Extract the natural frequency and participation factor.
-7. Retrieve the deformation axis at the origin and divide the curve by the number of floors to extract inter-storey drift.
+7. Retrieve the deformation axis at the origin and divide the curve by the number of floors to extract inter-story drift.
 
 ### Design Assumptions
 1)	The natural frequency and participation factor values fall within the range of 0.5-1.5 units. Consequently, adjustments to the cross-sectional dimensions of the structural elements are made in accordance with rule-of-thumb guidelines.
-2)	The Karamba results gave 3 participation factors - in X, Y and Z-axis. The following steps were considered while selecting the participation factor for next analysis step. If there are 3 modes of participation factor, 
-   - Z- ruled out because the Z is constant (0,3,6,9) 
-   - For X and Y - look at displacements - Consider the higher displacement values 
-   - And then, Consider the participation factor in that direction.
+2)	The Karamba results gave 3 participation factors - in the x, y and z-axis. The following steps were considered while selecting the participation factor for the next analysis step. If there are 3 modes of participation factor, 
+   - The z-axis is ruled out because the z is constant (0,3,6,9). 
+   - For the x and y-axis look at displacements - consider the higher displacement values. 
+   - And then, consider the participation factor in that direction.
 
 ## Simulation Tool
 The 'Simulation Tool' assesses the response of nine structural archetypes to seismic events. Running the **MASTERCODE.py** script activates this user-friendly interface, streamlining the analysis process.
