@@ -51,7 +51,7 @@ Utilize the provided file as follows:
    - And then, consider the participation factor in that direction.
 
 ### Creating CSV files
-- Right-click on the header of the 'Displacement Values' panel and choose "Stream Destination."
+- Right-click on the 'Displacement Values' panel and choose "Stream Destination."
 - Select the destination and specify the file name; choose the .csv format from the "Save as type" menu.
 - After creating the file, right-click on the panel header once more and opt for "Stream Contents."
 
