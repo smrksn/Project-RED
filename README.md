@@ -23,12 +23,38 @@ All rights, including intellectual property, are credited to Delft University of
 The project envisions the development of a country-specific extensive database, integrating three critical structural variables for evaluating structural integrity after induced earthquakes. However, these types of databases are currently in a conceptual stage and not widely implemented. To address this limitation, users can generate their own database through the **Structural Analysis** approach. This database accommodates nine different buildings or three main archetypes parametrically altered. Users can then leverage the structural analysis outputs in the **Simulation Tool**, which aligns with seismic engineering principles and national/international design codes.
 
 ## Structural Analysis
-... Ramya's part
+Structural analysis is vital for creating an archetypes database, extracting essential variables needed for a 'Simulation Tool'.
+The 3D  structures are modelled in the following version:
+- Rhino Version 7 SR34.
+- Grasshopper Version Build 1.0.0007.
+- Karamba3D 2.2.0.180-230616.
+
+### Contents
+- **Rhino Grasshopper File**: This file encompasses all nine archetype models.
+- **Vibration Shape**: Housing CSV files, it presents values in {ψ(x), Column height} format.
+
+### Using the File
+Utilize the provided file as follows:
+1. Model the structural elements and link them to the element's component.
+2. Establish connections for the corresponding supports and cross-section details.
+3. Specify the material properties.
+4. Given the scenario of an unoccupied building, apply only gravity load.
+5. Integrate all components into the Assemble model for finite element analysis at mode 0.
+6. Extract the natural frequency and participation factor.
+7. Retrieve the deformation axis at the origin and divide the curve by the number of floors to extract inter-storey drift.
+
+### Design Assumptions
+1)	The natural frequency and participation factor values fall within the range of 0.5-1.5 units. Consequently, adjustments to the cross-sectional dimensions of the structural elements are made in accordance with rule-of-thumb guidelines.
+2)	The Karamba results gave 3 participation factors - in X, Y and Z-axis. The following steps were considered while selecting the participation factor for next analysis step. If there are 3 modes of participation factor, 
+   - Z- ruled out because the Z is constant (0,3,6,9) 
+   - For X and Y - look at displacements - Consider the higher displacement values 
+   - And then, Consider the participation factor in that direction.
 
 ## Simulation Tool
 The 'Simulation Tool' assesses the response of nine structural archetypes to seismic events. Running the **MASTERCODE.py** script activates this user-friendly interface, streamlining the analysis process.
+Please refer to 'requirements_Simulation Tool.txt' for the software requirements needed to run the Simulation Tool.
 
-### Repository Contents
+### Contents
 - **py files**: In addition to the MASTERCODE.py, this repository contains essential Python files that provide the necessary functions for the analysis.
 - **txt files**: The text files are utilized to store data entered into the interface, enhancing user convenience.
 - **“Outputs”**: This folder stores output and intermediate results generated during the simulation.
