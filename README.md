@@ -3,6 +3,8 @@
 <img src="https://github-production-user-asset-6210df.s3.amazonaws.com/144154829/281760123-cd4f7a60-0e19-4087-83f5-68304ccbeb00.jpeg" width=70% height=70%>
 
 ## Go Directly to:
+[YouTube Introduction Video](https://youtu.be/DX2MPyc3SCs)
+
 [Project's Overview](https://github.com/smrksn/Project-RED/blob/main/README.md#project-overview)
 
 [Structural Analysis](https://github.com/smrksn/Project-RED/blob/main/README.md#structural-analysis)
