@@ -1,0 +1,16 @@
+File modelled in the following version:
+- Rhino Version 7 SR34.
+- Grasshopper Version Build 1.0.0007.
+- Karamba3D 2.2.0.180-230616.
+
+Notes:
+- The structure of the building is only taken into consideration
+- The material is assumed to be constant.
+- Always check for the deformed axis (mode shape) to be placed at origin. If not, move the slider to choose the mode shape at origin.
+
+- In case you extract 3 partcipation factor, the following design assumption was made:
+	- Z- ruled out because the Z is constant (0,3,6,9)
+	- For X and Y - look at displacements -  Consider the higher displacement values
+	- And then, Consider participation factor in that direction
+
+- Addition of any form of load on the building will alter frequency. The worst case needs to be assumed  for the structural analysis. In this case we have taken into consideration- that the building is empty

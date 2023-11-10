@@ -1,0 +1,36 @@
+Simulation Tool Compatibility:
+- Tested with Anaconda3-2022.10.
+- Verified to work in VS Code version 1.84 (October 2023 update).
+
+Instructions:
+- Create a new Conda environment to isolate the project dependencies:
+	- Open the Anaconda Prompt.
+	- Run: 'conda create -n ox -c conda-forge --strict-channel-priority osmnx'
+A new environment called 'ox' has been established, comprising essential Python libraries and including OSMnx for handling Open Street Map data.
+
+- Activate the newly created environment and install the required libraries for GUI support:
+	- Run 'conda activate ox'
+	- Run 'conda install -c anaconda tk'
+	- Run 'conda install -c gagphil1 ttkthemes'
+
+NB! If you encounter a CondaSSLError, please consider referring to this video for guidance: https://www.youtube.com/watch?v=-6puHFu8zDY 
+
+
+
+To run the simulation tool, make sure to select the correct interpreter in VS Code, which should be associated with the 'ox' created.
+
+
+
+While these steps should be sufficient, it's worth noting the list of libraries utilized in the project:
+- pandas
+- numpy
+- matplotlib (including pyplot and legend)
+- tkinter
+- ttkthemes
+- osmnx
+- geopandas
+- PIL (Python Imaging Library)
+- scipy
+- warnings
+- subprocess
+- os
